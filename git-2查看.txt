@@ -1,0 +1,14 @@
+ls -aon
+dir
+cat xxxx.txt
+vi/vim xxxx.txt
+
+$ git ls-files		#显示工作区和暂存区文件
+$ git ls-tree		#显示树对象包含的文件
+
+$ git config --list	#查看用户配置
+$ git status		#查看是否被修改
+$ git diff			#查看被修改的内容
+$ git log			#查看提交日志  --pretty=oneline参数
+$ git remote		#查看远程库信息 -v详细信息
+$ git branch		#查看分支

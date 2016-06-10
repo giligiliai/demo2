@@ -1,0 +1,2 @@
+$ git add xxx.txt	#提交到暂缓区
+$ git commit -m "提交注释区"	#把暂缓区文件提交到仓库

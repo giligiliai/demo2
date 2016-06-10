@@ -1,0 +1,12 @@
+git merge-base		供其他脚本调用，找到两个或多个提交最近的共同祖先
+git merge-file		针对文件的两个不同版本执行三向文件合并
+git merge-index		对index中的冲突文件调用指定的冲突解决工具
+git merge-octopus	合并两个以上分支。参见 git merge 的octopus合并策略
+git merge-one-file	由 git merge-index 调用的标准辅助程序
+git merge-ours		合并使用本地版本，抛弃他人版本。参见 git merge 的ours合并策略
+git merge-recursive	针对两个分支的三向合并。参见 git merge 的recursive合并策略
+git merge-resolve	针对两个分支的三向合并。参见 git merge 的resolve合并策略
+git merge-subtree	子树合并。参见 git merge 的 subtree 合并策略
+git merge-tree		显式三向合并结果，不改变暂存区
+git fmt-merge-msg	供执行合并操作的脚本调用，用于创建一个合并提交说明
+git rerere			重用所记录的冲突解决方案

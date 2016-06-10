@@ -1,0 +1,12 @@
+$ git config -- list #查看配置
+#创建本地账户
+$ git config --global user.name "EvilDome1"
+$ git config --global user.email "evil756377706@gmail.com"
+#创造匿名账户
+
+
+
+mkdir xxx	#创建文件夹
+$ git init	#创建.git文件夹
+echo "123465789" >>README.md	#创建文件添加内容
+$ git checkout -b 分支名	//创建并切换分支 不加-b就是只创造

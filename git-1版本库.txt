@@ -1,0 +1,17 @@
+git count-objects		显示松散对象的数量和磁盘占用
+git filter-branch		版本库重构
+git fsck				对象库完整性检查
+git fsck-objects*		同义词，等同于 git fsck
+git gc					版本库存储优化
+git index-pack			从打包文件创建对应的索引文件
+git lost-found*			过时，请使用 git fsck –lost-found 命令
+git pack-objects		从标准输入读入对象ID，打包到文件
+git pack-redundant		查找多余的 pack 文件
+git pack-refs			将引用打包到 .git/packed-refs 文件中
+git prune				从对象库删除过期对象
+git prune-packed		将已经打包的松散对象删除
+git relink				为本地版本库中相同的对象建立硬连接
+git repack				将版本库未打包的松散对象打包
+git show-index			读取包的索引文件，显示打包文件中的内容
+git unpack-objects		从打包文件释放文件
+git verify-pack			校验对象库打包文件

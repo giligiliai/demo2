@@ -1,0 +1,11 @@
+//远程仓库
+$ ssh-keygen -t rsa "xxx@xx.com"				#建立ssh
+cd ~/.ssh
+id_rsa  私钥 	id_rsa.pub 公钥
+$ git clone git://github.com/jquery/jquery.git	#克隆远程仓库
+$ git remote -v									#查看远程仓库
+$ git remote add [name] [url]					#添加到远程仓库
+$ git remote rm [name]							#删除远程仓库
+$ git remote set-url --push [name] [newUrl]	#修改远程仓库
+$ git pull [remoteName] [localBranchName]		#拉取远程仓库
+$ git push –u(第一次要用-u 以后不需要) origin master #远程提交 把本地master推送到github
