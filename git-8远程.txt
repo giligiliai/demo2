@@ -9,3 +9,8 @@ $ git remote rm [name]							#删除远程仓库
 $ git remote set-url --push [name] [newUrl]	#修改远程仓库
 $ git pull [remoteName] [localBranchName]		#拉取远程仓库
 $ git push –u(第一次要用-u 以后不需要) origin master #远程提交 把本地master推送到github
+
+
+$ git remote add origin https://github.com/giligiliai/demo2.git
+$ git push -u origin master
+$ git push all --all
